@@ -8,21 +8,22 @@ purple: #8852a1 ;
 
 
 body {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
 	margin: 0;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 h1, p {
 	margin-top: 0;
+	padding-top: 20px;
 }
 nav {
 	margin: auto; 
 	text-align: center;
 	width: 100%;
 	display: inline-block;
-	background: #efefef; 
-	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
-	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
-	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	background: #3e3b48; 
 	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 }
 
@@ -64,8 +65,8 @@ nav ul {
 			}
 		
 		nav ul li {
-			display: block; padding: 25px 40px;
-			color: #757575; text-decoration: none;
+			display: block; padding: 10px 40px;
+			color: white; text-decoration: none;
 		}
 			
 		
@@ -91,17 +92,26 @@ nav ul {
 		position: absolute; left: 100%; top:0; z-index: 1000;
 	}
 
+footer {
+
+}
+
 .main_container {
 	overflow-y: scroll;
 	position: absolute;
 	left: 0;
-	top: 68px;
+	top: 38px;
 	right: 0;
 	bottom:0;
 	z-index: 0;
 }
 
 .container {
+}
+.side_scroller {
+	width: 5px;
+	position: absolute;
+	z-index: 10;
 }
 
 .highlight_box {
@@ -116,6 +126,10 @@ nav ul {
 	text-align: center;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+
+.it_starts_here h1{
+	padding-top: 250px
 }
 
 .who_we_are h1 {
