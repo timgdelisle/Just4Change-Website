@@ -17,13 +17,13 @@ $(document).ready(function() {
 	$('.swirve7').attr('width',windowWidth)
 	$('.swirve8').attr('width',windowWidth)
 	$('#sect_start1').attr('cx', windowWidth/2)
-	$('#swirve2').attr('cx',windowWidth/2.05)
+	$('#swirve2').attr('cx',windowWidth/2.03)
 	$('#swirve3').attr('cx',windowWidth/2.25)
 	$('#swirve4').attr('cx',windowWidth/2.8)
-	$('#swirve5').attr('cx',windowWidth/4)
-	$('#swirve6').attr('cx',windowWidth/7)
-	$('#swirve7').attr('cx',windowWidth/16)
-	$('#swirve8').attr('cx',windowWidth/40)
+	$('#swirve5').attr('cx',windowWidth/3.8)
+	$('#swirve6').attr('cx',windowWidth/6.1)
+	$('#swirve7').attr('cx',windowWidth/12)
+	$('#swirve8').attr('cx',windowWidth/28)
     $(window).resize(function(){
     	var containersize = $('.main_container').height();
         $('.container').height(containersize)
