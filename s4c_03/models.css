@@ -1,19 +1,73 @@
+body {
+	margin: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+
+a {
+	text-decoration: none;
+	color: #3e3b48;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+.participants{
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.img_fix{
+	height: 245px
+}
+
+.d_table{
+	width: 100%;
+	margin-bottom: 40px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.img_box{
+	height: 350px;
+	margin: 40px;
+}
+
+.return_button {
+	text-align: center;
+}
+
+.title {
+	background: #3e3b48;
+	font-size: xx-large;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: white;
+
+}
+
 .model {
-	text-align: left;
-	padding-right: 10px;
-	padding-left: 15px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	text-align: center;
+	width: 32%;
+	float: left;
+	
+
 
 }
 .info {
-	width: 75%;
 	text-align: center;
 	font-size: 22px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 40px;
 }
 
 .main_pic {
-	height: 400px;
+	height: 100%;
 }
 
 .centerd_text {
@@ -28,20 +82,16 @@
 .fundraising {
 	font-size: 40px;
 	color: #5ac8e6;
-	width: 50%;
-	padding-top: 10px;
 	text-align: center;
 }
 .img_p1 {
 	width: 33%;
 	float: right;
 }
-.page_headline {
-	border: thin solid black;
-	border-radius: 10px;
-	width: 50%;
-}
+
 .button {
-	height: 60px;
-	float: center;
+}
+.model img {
+	width: 50%;
+	 bottom margin: 40;
 }
