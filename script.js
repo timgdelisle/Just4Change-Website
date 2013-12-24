@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+
+
+
+
 //*****************Sizing START**************************    
     var containersize = $('.main_container').height();
     $('.container').height(containersize);
@@ -160,14 +165,48 @@ $('.main_container').scroll(function(){
         }
     });
 
+//*****************clicks START**************************
+//who we are click
+    $('.who_we_are_button').click(function() {
+        $('.main_container').scrollTo('.who_we_are',750);
+        event.stopPropagation();
+    });
+//pick solution click
+    $('.pick_your_solution_button').click(function() {
+        $('.main_container').scrollTo('.how_it_works',750)
+        event.stopPropagation();
+    });
+//S4C click
+    $('.s4c_button').click(function() {
+        $('.main_container').scrollTo(2160,750)
+        event.stopPropagation();
+    });
+//F4C click
+    $('.f4c_button').click(function() {
+        $('.main_container').scrollTo('.fashion_4_change',750)
+        event.stopPropagation();
+    });
+//L4C click
+    $('.l4c_button').click(function() {
+        $('.main_container').scrollTo('.likes_4_change',750)
+        event.stopPropagation();
+    });
+//Contact click
+    $('.contact_us_button').click(function() {
+        $('.main_container').scrollTo('.contact_us',750)
+        event.stopPropagation();
+    });
+//FAQ click
+    $('.faq_button').click(function() {
+        $('.main_container').scrollTo('.faq',750)
+        event.stopPropagation();
+    });
+//*****************clicks END***************************
 
 
-
+    $('.logo').fadeTo(3000,1);
 
 });
 
 
-
-
-//*****************Scroll START**************************    
     
