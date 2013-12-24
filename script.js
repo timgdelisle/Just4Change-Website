@@ -178,7 +178,7 @@ $('.main_container').scroll(function(){
     });
 //S4C click
     $('.s4c_button').click(function() {
-        $('.main_container').scrollTo(2160,750)
+        $('.main_container').scrollTo('.strip_4_change',750)
         event.stopPropagation();
     });
 //F4C click
